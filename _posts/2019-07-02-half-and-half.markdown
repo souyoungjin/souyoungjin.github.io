@@ -4,7 +4,7 @@ title: Half and Half New Tasks and Benchmarks for Studying Visual Common Sense
 date: 2019-07-02 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: post-1.jpg # Add image post (optional)
-tags: [A, B]
+tags: [Blog, Mountains]
 author: # Add name author (optional)
 ---
 The general recognition of objects, people, actions and scene types has been a core focus of computer vision research. However, now that we have achieved a degree of success in these problems, it is time to define new problems
