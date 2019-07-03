@@ -1,5 +1,5 @@
-title: My personal blog - Adam Neilson
-email: your-email@domain.com
+title: SouYoung Jin
+email: souyoungjin@cs.umass.edu
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,16 +9,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://souyoungjin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
-author: Adam Neilson # add your name
+author: SouYoung Jin # add your name
 author-pic: adam-face.jpg
-about-author: My name is Adam Neilson. I’m a full-time adventure travel blogger and photographer who’s been exploring the world for over 2 years.
+about-author: I am a Ph.D. Candidate at College of Information and Computer Sciences, University of Massachusetts, Amherst, working with Prof. Erik Learned-Miller at Computer Vision Lab. My research interests are in Computer Vision and Machine Learning. 
 
 # Contact links
-email: # Add your Email address
+email: souyoungjin@cs.umass.edu # Add your Email address
 phone: # Add your Phone number
 website: # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
+github: souyoungjin # Add your Github handle
 twitter: '@artemsheludko_' # Add your Twitter handle
 facebook: # Add your Facebook handle
 instagram: # Add your Instagram handle
