@@ -3,7 +3,7 @@ layout: post
 title: Half&Half: New Tasks and Benchmarks for Studying Visual Common Sense
 date: 2019-07-02 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: HnH.png # Add image post (optional)
+img: souyoungjin.jpg # Add image post (optional)
 tags: [Blog, Mountains]
 author: # Add name author (optional)
 ---
