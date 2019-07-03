@@ -1463,7 +1463,7 @@ pre code {
 
 .about-header {
   position: relative;
-  text-align: justify;
+  text-align: center;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -1501,7 +1501,7 @@ pre code {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: justify;
+  text-align: center;
 }
 
 .about-body .contact-list li {
