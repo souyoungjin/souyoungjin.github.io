@@ -4,7 +4,7 @@ title: Half&Half: New Tasks and Benchmarks for Studying Visual Common Sense
 date: 2019-07-02 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: HnH.png # Add image post (optional)
-tags: [Ashish Singh, Hang Su, SouYoung Jin, Huaizu Jiang, Chetan Manjesh, Geng Luo, Ziwei He, Li Hong, Erik G. Learned-Miller, Rosemary Cowell]
+tags: [Ashish_Singh, Hang_Su, SouYoung_Jin, Huaizu_Jiang, Chetan_Manjesh, Geng_Luo, Ziwei_He, Li_Hong, Erik_G._Learned-Miller, Rosemary Cowell]
 author: # Add name author (optional)
 ---
 The general recognition of objects, people, actions and scene types has been a core focus of computer vision research. However, now that we have achieved a degree of success in these problems, it is time to define new problems
