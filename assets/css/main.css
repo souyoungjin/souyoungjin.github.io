@@ -930,8 +930,8 @@ pre code {
   top: 0;
   left: 0;
   z-index: 10;
-  width: 300px;
-  height: 100%;
+  width: 240%;
+  height: 120%;
   background-color: #fff;
   padding: 25px 30px;
   -webkit-transform: translate3d(-300px, 0, 0);
