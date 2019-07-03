@@ -1405,7 +1405,7 @@ pre code {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 30px;
+  margin-top: 0px;
   padding-bottom: 30px;
   border-bottom: 1px solid #d9d9d9;
 }
@@ -1501,7 +1501,7 @@ pre code {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: center;
+  text-align: justify;
 }
 
 .about-body .contact-list li {
