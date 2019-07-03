@@ -10,16 +10,16 @@ url: "https://souyoungjin.github.io" # the base hostname & protocol for your sit
 
 # Author settings
 author: SouYoung Jin # add your name
-author-pic: adam-face.jpg
+author-pic: souyoung.jpeg
 about-author: I am a Ph.D. Candidate at College of Information and Computer Sciences, University of Massachusetts, Amherst, working with Prof. Erik Learned-Miller at Computer Vision Lab. My research interests are in Computer Vision and Machine Learning. 
 
 # Contact links
 email: souyoungjin@cs.umass.edu # Add your Email address
 phone: # Add your Phone number
-website: # Add your website, do not add http://
+website: http://souyoungjin.com # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
 github: souyoungjin # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
+twitter:  # Add your Twitter handle
 facebook: # Add your Facebook handle
 instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
@@ -34,7 +34,7 @@ discus_identifier: mr-brown # Add your discus identifier
 analytics: # Google Analytics
 
 # Paginate
-paginate: 6
+paginate: 8
 paginate_path: /page:num/
 
 # Build settings
