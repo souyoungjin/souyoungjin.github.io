@@ -1181,7 +1181,7 @@ pre code {
 
 /* = = = = = = = = = = Post-Page Styles = = = = = = = = = = */
 .page-image {
-  position: relative;
+  position: absolute;
   padding: 0;
   margin: 0;
   height: 500px;
