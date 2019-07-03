@@ -1458,12 +1458,12 @@ pre code {
 }
 
 .about-container {
-  margin: 100px 0 100px;
+  margin: 0 0 0; /*100px 0 100px;*/
 }
 
 .about-header {
   position: relative;
-  text-align: center;
+  text-align: justify;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
