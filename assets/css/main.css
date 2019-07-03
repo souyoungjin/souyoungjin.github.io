@@ -1089,7 +1089,7 @@ pre code {
 
 .post-card .post-card-image {
   display: block;
-  width: 200%;
+  width: 100%;
   min-height: 300px;
   background-size: cover;
   background-position: center;
