@@ -11,11 +11,8 @@ url: "https://souyoungjin.github.io" # the base hostname & protocol for your sit
 # Author settings
 author: SouYoung Jin # add your name
 author-pic: souyoung.jpeg
-about-author: I am a Ph.D. Candidate at <a href="link to its homepage">College of Information and Computer Sciences</a>, 
-<a href="link to its homepage">University of Massachusetts, Amherst</a>, working with 
-<a href="link to its homepage">Prof. Erik Learned-Miller</a> 
-at <a href="link to its homepage">Computer Vision Lab</a>. 
-My research interests are in Computer Vision and Machine Learning. 
+about-author: I am a Ph.D. Candidate at <a href="link to its homepage">College of Information and Computer Sciences</a>, <a href="link to its homepage">University of Massachusetts, Amherst</a>, working with 
+<a href="link to its homepage">Prof. Erik Learned-Miller</a> at <a href="link to its homepage">Computer Vision Lab</a>. My research interests are in Computer Vision and Machine Learning. 
 
 # Contact links
 email: souyoungjin@cs.umass.edu # Add your Email address
