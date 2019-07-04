@@ -837,6 +837,15 @@ a {
   width: 800px;
 }
 
+.publication-container li:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 0px;
+    background: #555555;
+}
+
 .publication-container li img {
   float: left;
   margin: 25px 25px 25px 5px;
@@ -854,6 +863,7 @@ a {
   padding: 0px;
   overflow: auto;
 }
+
 
 .publication-container li:hover {
   background: #FFFF99;
