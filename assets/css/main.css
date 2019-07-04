@@ -808,7 +808,6 @@ a {
   width: 700px;
   max-width: 100%;
   margin: 0 auto;
-  text-align: justify;
 }
 
 .publication-container li img {
@@ -1531,7 +1530,6 @@ pre code {
   font-family: 'Lato', sans-serif;
   color: #999999;
   font-weight: 400; 
-  font-size: 25pt;
 }
 
 .about-body .contact-list {
