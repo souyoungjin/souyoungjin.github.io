@@ -943,7 +943,6 @@ pre code {
   padding: 15px 0 0;
   margin: 0;
   list-style: none;
-  width: 500px;
 }
 
 .main-nav ul li {
@@ -1191,7 +1190,7 @@ pre code {
   position: relative;
   padding: 0;
   margin: 0;
-  height: 500px;
+  height: 300px;
   background-color: #fff;
   overflow: hidden;
 }
