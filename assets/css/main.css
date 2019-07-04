@@ -811,7 +811,10 @@ li img {
 }
 
 li p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  font-family: 'Lato', sans-serif;
+  color: #311e3e;
+  font-weight: 400; 
+  font-size: 12pt;
 }
 
 li {
