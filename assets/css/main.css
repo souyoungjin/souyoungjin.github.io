@@ -811,6 +811,19 @@ a {
 }
 */
 
+.publication-container * {
+  margin: 0; padding: 0;
+}
+
+.publication-container div {
+  margin: 20px;
+}
+
+.publication-container ul {
+  list-style-type: none;
+  width: 500px;
+}
+
 .publication-container li img {
   float: left;
   margin: 0 15px 0 0;
