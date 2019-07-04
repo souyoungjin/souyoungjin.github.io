@@ -805,9 +805,28 @@ a {
 }
 
 
+.publication-container {  
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
 .publication-container div {
   margin: 20px;
 }
+
 
 .publication-container ul {
   position: relative;
