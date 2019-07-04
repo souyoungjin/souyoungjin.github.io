@@ -762,6 +762,7 @@ template {
   display: none;
 }
 
+
 /* = = = = = = = = = = Main Styles = = = = = = = = = = */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -946,6 +947,11 @@ pre code {
 
 .main-nav ul li {
   border-bottom: 1px solid #d9d9d9;
+}
+
+.main-nav ul li img{
+  float: left;
+  margin: 0 15px 0 0;
 }
 
 .main-nav ul li a {
