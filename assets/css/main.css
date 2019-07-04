@@ -839,7 +839,8 @@ a {
 
 .publication-container li img {
   float: left;
-  margin: 0 25px 0 0;
+  margin: 25px 25px 25px 5px;
+  max-width: 300px;
 }
 
 .publication-container li p {
