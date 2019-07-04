@@ -804,12 +804,6 @@ a {
   color: #87314e;
 }
 
-/*.publication-container{
-  width: 700px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-*/
 
 .publication-container * {
   margin: 0; padding: 0;
@@ -821,7 +815,7 @@ a {
 
 .publication-container ul {
   list-style-type: none;
-  width: 500px;
+  width: 1000px;
 }
 
 .publication-container li img {
@@ -829,7 +823,7 @@ a {
   margin: 0 15px 0 0;
 }
 
-.publication-container  li h3 {
+.publication-container li h3 {
   font-family: 'Lato', sans-serif;
   color: #999999;
   font-weight: 500; 
