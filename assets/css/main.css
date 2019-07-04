@@ -794,13 +794,34 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+/*
 img {
   height: auto;
-  max-width: 100%;
+  max-width: 100%;  
 }
 
 a {
   color: #87314e;
+}
+*/
+
+li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+li:hover {
+  background: #eee;
+  cursor: pointer;
 }
 
 blockquote {
