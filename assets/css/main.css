@@ -804,25 +804,30 @@ a {
   color: #87314e;
 }
 
+.publication-container{
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 
-li img {
+.publication-container li img {
   float: left;
   margin: 0 15px 0 0;
 }
 
-li p {
+.publication-container li p {
   font-family: 'Lato', sans-serif;
   color: #311e3e;
   font-weight: 400; 
   font-size: 12pt;
 }
 
-li {
+.publication-container li {
   padding: 10px;
   overflow: auto;
 }
 
-li:hover {
+.publication-container li:hover {
   background: #eee;
   cursor: pointer;
 }
