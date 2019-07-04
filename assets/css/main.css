@@ -830,10 +830,7 @@ a {
   font-size: 24pt;
 }
 .publication-container li p {
-  font-family: 'Lato', sans-serif;
-  color: #999999;
-  font-weight: 400; 
-  font-size: 20pt;
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 
 .publication-container li {
