@@ -804,11 +804,12 @@ a {
   color: #87314e;
 }
 
-.publication-container{
-  /*width: 700px;
+/*.publication-container{
+  width: 700px;
   max-width: 100%;
-  margin: 0 auto;*/
+  margin: 0 auto;
 }
+*/
 
 .publication-container li img {
   float: left;
