@@ -943,6 +943,7 @@ pre code {
   padding: 15px 0 0;
   margin: 0;
   list-style: none;
+  width: 500px;
 }
 
 .main-nav ul li {
