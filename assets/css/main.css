@@ -805,7 +805,7 @@ a {
 }
 
 .publication-container{
-  width: 600px;
+  width: 700px;
   max-width: 100%;
   margin: 0 auto;
   text-align: justify;
@@ -1528,10 +1528,10 @@ pre code {
 }
 
 .about-header .subtitle {
+  font-family: 'Lato', sans-serif;
   color: #999999;
-  font-weight: 300;
-  margin: 0;
-  font-size: 20px;
+  font-weight: 400; 
+  font-size: 25pt;
 }
 
 .about-body .contact-list {
