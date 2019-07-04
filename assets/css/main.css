@@ -794,7 +794,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-/*
+
 img {
   height: auto;
   max-width: 100%;  
@@ -803,43 +803,38 @@ img {
 a {
   color: #87314e;
 }
-*/
 
-.publication-container * {
-  margin: 0; padding: 0;
-}
 
 .publication-container div {
   margin: 20px;
 }
 
 .publication-container ul {
+  position: relative;
+  text-align: justify;
   list-style-type: none;
-  width: 500px;
+  width: 800px;
 }
 
 .publication-container li img {
   float: left;
-  margin: 0 15px 0 0;
+  margin: 0 25px 0 0;
 }
 
-.publication-container li h3 {
-  font-family: 'Lato', sans-serif;
-  color: #999999;
-  font-weight: 500; 
-  font-size: 24pt;
-}
 .publication-container li p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+  font-family: 'Lato', sans-serif;
+  color: #555555;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .publication-container li {
-  padding: 10px;
+  padding: 0px;
   overflow: auto;
 }
 
 .publication-container li:hover {
-  background: #eee;
+  background: #FFFF99;
   cursor: pointer;
 }
 
@@ -1539,8 +1534,9 @@ pre code {
 
 .about-header .subtitle {
   font-family: 'Lato', sans-serif;
-  color: #999999;
+  color: #111111;
   font-weight: 400; 
+  font-size: 20px;
 }
 
 .about-body .contact-list {
