@@ -11,7 +11,7 @@ url: "https://souyoungjin.github.io" # the base hostname & protocol for your sit
 # Author settings
 author: SouYoung Jin # add your name
 author-pic: souyoung.jpeg
-about-author: I am a Ph.D. Candidate at College of Information and Computer Sciences, University of Massachusetts, Amherst, working with Prof. Erik Learned-Miller at Computer Vision Lab. My research interests are in Computer Vision and Machine Learning. 
+about-author: I am a Ph.D. Candidate at <a href="link to its homepage">College of Information and Computer Sciences</a>, University of Massachusetts, Amherst, working with Prof. Erik Learned-Miller at Computer Vision Lab. My research interests are in Computer Vision and Machine Learning. 
 
 # Contact links
 email: souyoungjin@cs.umass.edu # Add your Email address
@@ -38,7 +38,7 @@ paginate: 8
 paginate_path: /page:num/
 
 # Build settings
-markdown: Pandoc #kramdown
+markdown: kramdown
 
 plugins:
   - jekyll-paginate
