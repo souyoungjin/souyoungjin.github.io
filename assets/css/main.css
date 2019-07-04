@@ -805,9 +805,10 @@ a {
 }
 
 .publication-container{
-  width: 700px;
+  width: 600px;
   max-width: 100%;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .publication-container li img {
@@ -817,9 +818,9 @@ a {
 
 .publication-container li p {
   font-family: 'Lato', sans-serif;
-  color: #311e3e;
+  color: #999999;
   font-weight: 400; 
-  font-size: 12pt;
+  font-size: 20pt;
 }
 
 .publication-container li {
@@ -1527,9 +1528,10 @@ pre code {
 }
 
 .about-header .subtitle {
-  color: #311e3e;
+  color: #999999;
   font-weight: 300;
   margin: 0;
+  font-size: 20px;
 }
 
 .about-body .contact-list {
