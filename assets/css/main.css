@@ -824,7 +824,7 @@ a {
 }
 
 .publication-container div {
-  margin: 20px;
+  margin: 40px;
 }
 
 
@@ -832,6 +832,8 @@ a {
   position: relative;
   text-align: justify;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 800px;
 }
 
