@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Url Redirector"
+             author="chaohan"
+             author_email="caoshoufeng@gmail.com"
+             author_affiliation="bupt"
+             author_location="Beijing.China"
+             screenshot=""
+             thumbnail=""
+             category="tools"
+             description="Redirect to a page."
+             render_inline="optional"
+/>
+<UserPref name="pageurl" display_name="PageTo" default_value="#"/>
+<UserPref name="timeout" display_name="Timeout" default_value="10"/>
+
+<Content type="html"><![CDATA[
+<style>
+	#pbContainer___MODULE_ID__ {
+		font:73% Arial,Helvetica,sans-serif;
+		padding:5px;
+		background-color:#F7F9FB;
+		border:1px solid #7B9EBD;
+	}
+	#progressbar___MODULE_ID__ {
+		border:1px solid #7B9EBD;
+		background-color:#fff;
+		padding:2px;
+	}
+</style>
+<div id="pbContainer___MODULE_ID__">
+	<div id="prompt___MODULE_ID__">
+		<div id="message___MODULE_ID__"></div>
+	</div>
+	
+	<div id="progressbar___MODULE_ID__">
+		<div id="progress___MODULE_ID__" style="background-color:green;height:10px;width:100%"></div>
+	</div>
+	<div style="text-align:right"><a id="ctlStop___MODULE_ID__" href="#">stop</a></div>
+</div>
+<script src="http://caoshoufeng.googlepages.com/prototype.js" type="text/javascript"></script>
+<script src="http://caoshoufeng.googlepages.com/delayer.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var Redirector___MODULE_ID__ = Class.create();
+	Redirector___MODULE_ID__.prototype = {
+		initialize: function(url,timeout) {
+			this.url = url;
+			this.timeout = timeout;
+			$("message___MODULE_ID__").innerHTML = this.url + ":" + this.timeout + "s ";
+			this.delayer = new Delayer(this.timeout,{onProcess:this.waiting.bind(this),onComplete:this.redirect.bind(this)});
+			Event.observe("ctlStop___MODULE_ID__", "click", this.stop.bind(this));
+		},
+		waiting: function(time){
+			$("message___MODULE_ID__").innerHTML = this.url + ":" + time + "s ";
+			$("progress___MODULE_ID__").style.width = time/this.timeout * 100 + "%";
+		},
+		
+		redirect: function(){
+			this.stop();
+			top.location = this.url;
+		},
+		
+		stop: function(){
+			this.delayer.stop();
+		}
+	}
+	
+	var redirector___MODULE_ID__;	
+	
+	_IG_RegisterOnloadHandler( function (){
+		var prefs= new _IG_Prefs(__MODULE_ID__);
+		var pageTo= prefs.getString("pageurl");
+		var timeout= prefs.getString("timeout");
+		
+		redirector___MODULE_ID__ = new Redirector___MODULE_ID__(pageTo,timeout);
+	});
+	
+
+</script>
+]]></Content>
+</Module>
