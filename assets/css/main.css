@@ -1675,7 +1675,8 @@ pre code {
 
 .page-content,
 .about-container,
-.post-card-box {
+.post-card-box,
+.publication-container {
   -webkit-animation-delay: 0.75s;
           animation-delay: 0.75s;
 }
