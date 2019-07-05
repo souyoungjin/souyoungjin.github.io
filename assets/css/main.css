@@ -1657,7 +1657,8 @@ pre code {
 .page-image,
 .page-content,
 .about-container,
-.post-card-box {
+.post-card-box, 
+.publication-container{
   -webkit-animation-duration: 0.7s;
           animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
