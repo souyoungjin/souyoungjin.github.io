@@ -1558,9 +1558,9 @@ pre code {
 
 .about-header .author-image-container {
   width: 500px;
-  height: 400px;
-  -webkit-border-radius: 0%;
-          border-radius: 0%;
+  height: auto;
+  -webkit-border-radius: 20%;
+          border-radius: 20%;
   overflow: hidden;
   margin: 0 auto 30px;
 }
